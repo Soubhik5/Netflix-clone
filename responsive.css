@@ -1,0 +1,111 @@
+@media screen and (max-width: 1920px) {
+    nav {
+        width: 81%;
+    }
+
+}
+@media screen and (max-width: 1285px) {
+    nav {
+        width: 93%;
+    }
+
+}
+
+@media screen and (max-width: 1152px) {
+
+    .first {
+        flex-wrap: wrap;
+        text-align: center;
+
+
+    }
+
+    .second {
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+    
+    .fourth {
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+
+    .first-img-text :nth-child(1) {
+        font-size: 34px;
+    }
+
+
+    .first-img-text :nth-child(2) {
+        font-size: 17px;
+
+    }
+
+    .hero> :nth-child(1) {
+        font-size: 37px;
+    }
+
+    .hero> :nth-child(2) {
+        font-size: 18px;
+    }
+
+    .hero> :nth-child(3) {
+        font-size: 18px;
+
+    }
+
+
+
+
+
+}
+
+
+@media screen and (max-width: 690px) {
+    .hero-buttons {
+        flex-direction: column;
+    }
+
+    .first-img img {
+        max-width: 464px;
+    }
+
+
+    .first>.first-img>video {
+
+        top: 73px;
+        max-width: 366px;
+    }
+
+    .third>.first-img>video {
+        width: 290px;
+        right: 92px;
+        top: 40px;
+    }
+
+}
+
+
+@media screen and (max-width: 917px) {
+    footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+
+    }
+
+}
+
+@media screen and (max-width: 766px) {
+    footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+}
+
+@media screen and (max-width: 510px) {
+    .faq h2 {
+        font-size: 29px;
+    }
+
+}
